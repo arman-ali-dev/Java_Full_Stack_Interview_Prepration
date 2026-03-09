@@ -1,16 +1,16 @@
 ### 1. What is Java?
 Java is a high-level, object-oriented programming language developed by Sun Microsystems and now maintained by Oracle. It is widely used for building web applications, enterprise applications, and backend systems. One of the main features of Java is platform independence, which means Java code can run on any system that has a Java Virtual Machine (JVM). This is why Java follows the principle “Write Once, Run Anywhere.”
 
-## 2. How is Java platform independent?
+### 2. How is Java platform independent?
 Java is platform independent because Java code is compiled into bytecode, not machine code. This bytecode runs on the Java Virtual Machine (JVM) instead of directly running on the operating system. Since JVM is available for different operating systems like Windows, Linux, and macOS, the same Java program can run on any system without changing the code. That is why Java follows the principle “Write Once, Run Anywhere.”
 
-## 3. What is a JVM?
+### 3. What is a JVM?
 JVM stands for Java Virtual Machine. It is a virtual environment that runs Java bytecode. When we compile a Java program, it converts the code into bytecode, and the JVM is responsible for executing that bytecode on the system. JVM also provides features like memory management, garbage collection, and platform independence, which allow Java programs to run on different operating systems.
 
-## 4. What is a JDK?
+### 4. What is a JDK?
 JDK stands for Java Development Kit. It is a software development kit used to develop, compile, and run Java applications. JDK includes important tools like the Java compiler (javac), JRE, and other development tools. In simple terms, JDK provides everything needed to write, compile, and execute a Java program.
 
-## 5. What is a JRE?
+### 5. What is a JRE?
 JRE stands for Java Runtime Environment. It provides the environment required to run Java applications. It includes the Java Virtual Machine (JVM) and the necessary libraries and files needed to execute Java programs. In simple terms, JRE is responsible for running Java programs, but it does not contain development tools like the compiler.
 
 ## 6. What is the difference between a JVM, JDK, and JRE?
