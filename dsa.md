@@ -1,117 +1,86 @@
 ## Array
 
-### 1. Two Sum
-
-### 2. Best Time to Buy and Sell Stock
-
-### 3. Maximum SubArray
-
-### 4. Move Zeroes
-
-### 5. Remove Duplicates from Sorted Array
+1. Two Sum
+2. Best Time to Buy and Sell Stock
+3. Contains Duplicate
+4. Maximum Subarray
+5. Move Zeroes
+6. Find All Numbers Disappeared in an Array
+7. Single Number
+8. Product of Array Except Self
+9. Maximum Product Subarray
+10. Find Minimum in Rotated Sorted Array
+11. Search in Rotated Sorted Array
+12. 3Sum
+13. Container With Most Water
+14. Subarray Sum Equals K
+15. Longest Consecutive Sequence
+16. Set Matrix Zeroes
+17. Spiral Matrix
+18. Rotate Array
+19. Merge Sorted Array
+20. Majority Element
 
 ---
 
 ## String
 
-### 6. Valid Palindrome
+1. Valid Palindrome
+2. Valid Anagram
+3. First Unique Character in a String
+4. Reverse String
+5. Reverse Words in a String III
+6. Longest Common Prefix
+7. Implement strStr()
+8. Longest Substring Without Repeating Characters
+9. Group Anagrams
+10. Check if Two String Arrays are Equivalent
+11. Longest Palindromic Substring
+12. String to Integer (atoi)
+13. Minimum Window Substring
+14. Decode String
+15. Multiply Strings
 
-### 7. Longest Common Prefix
-
-### 8. Valid Anagram
-
-### 9. Reverse String
-
-### 10. First Unique Character
 
 ---
 
 ## HashMap / HashSet
 
-### 11. Two Sum using HashMap
-
-### 12. Contains Duplicate
-
-### 13. Intersection of Two Arrays
-
-### 14. Group Anagrams
-
----
-
-## Two Pointer
-
-### 15. Container With Most Water
-
-### 16. Remove Element
-
-### 17. Sort Colors
+1. Two Sum
+2. Contains Duplicate
+3. Intersection of Two Arrays
+4. Happy Number
+5. Longest Consecutive Sequence
+6. Isomorphic Strings
+7. Group Anagrams
+8. Top K Frequent Elements
+9. Subarray Sum Equals K
+10. Word Pattern
 
 ---
 
 ## Stack
 
-### 18. Valid Parentheses
-
-### 19. Min Stack
-
-### 20. Daily Temperatures
-
----
-
-## Recursion
-
-### 21. Fibonacci
-
-### 22. Factorial
-
-### 23. Generate Parentheses
+1. Valid Parentheses
+2. Min Stack
+3. Daily Temperatures
+4. Next Greater Element I
+5. Evaluate Reverse Polish Notation
 
 ---
 
-## LinkedList
+## Queue
 
-### 24. Reverse Linked List
-
-### 25. Merge Two Sorted Lists
-
-### 26. Detect Cycle in LinkedList
+1. Implement Queue using Stacks
+2. Number of Recent Calls
+3. Design Circular Queue
 
 ---
 
-## Binary Search
+## Recusrsion
 
-### 27. Binary Search
-
-### 28. Search Insert Position
-
-### 29. Find Peak Element
-
----
-
-## Tree (Basic)
-
-### 30. Maximum Depth of Binary Tree
-
-### 31. Inorder Traversal
-
-### 32. Same Tree
-
----
-
-## Misc
-
-### 33. Climbing Stairs
-
-### 34. Majority Element
-
-### 35. Missing Number
-
-### 36. Product of Array Except Self
-
-### 37. Subarray Sum Equals K
-
-### 38. Longest Substring Without Repeating Characters
-
-### 39. Kth Largest Element
-
-### 40. Top K Frequent Elements
+1. Fibonacci Number
+2. Climbing Stairs
+3. Power of Two
+4. Generate Parentheses
+5. Subsets
