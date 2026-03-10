@@ -1,5 +1,5 @@
 ### 1. What is Java?
-Java is a high-level, object-oriented programming language developed by Sun Microsystems and now maintained by Oracle. It is widely used for building web applications, enterprise applications, and backend systems. One of the main features of Java is platform independence, which means Java code can run on any system that has a Java Virtual Machine (JVM). This is why Java follows the principle “Write Once, Run Anywhere.”
+Java is a high-level, object-oriented programming language developed by Sun Microsystems and now maintained by Oracle. One of the main features of Java is platform independence, which means Java code runs on the JVM and can run on different operating systems.
 
 ### 2. How is Java platform independent?
 Java is platform independent because Java code is compiled into bytecode, not machine code. This bytecode runs on the Java Virtual Machine (JVM) instead of directly running on the operating system. Since JVM is available for different operating systems like Windows, Linux, and macOS, the same Java program can run on any system without changing the code. That is why Java follows the principle “Write Once, Run Anywhere.”
