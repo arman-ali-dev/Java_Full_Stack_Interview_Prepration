@@ -20,23 +20,40 @@ class Solution {
     }
 }
 ```
-4. Maximum Subarray
-5. Move Zeroes
-6. Find All Numbers Disappeared in an Array
-7. Single Number
-8. Product of Array Except Self
-9. Maximum Product Subarray
-10. Find Minimum in Rotated Sorted Array
-11. Search in Rotated Sorted Array
-12. 3Sum
-13. Container With Most Water
-14. Subarray Sum Equals K
-15. Longest Consecutive Sequence
-16. Set Matrix Zeroes
-17. Spiral Matrix
-18. Rotate Array
-19. Merge Sorted Array
-20. Majority Element
+### 4. Maximum Subarray
+```java
+class Solution {
+    public int maxProfit(int[] prices) {
+        int maxProfit = 0, bestBuy = prices[0];
+
+        for(int p : prices) {
+            if(p < bestBuy) {
+                bestBuy = p;
+            }
+
+            maxProfit = Math.max(maxProfit, p - bestBuy);
+        }
+
+        return maxProfit;
+    }
+}
+```
+6. Move Zeroes
+7. Find All Numbers Disappeared in an Array
+8. Single Number
+9. Product of Array Except Self
+10. Maximum Product Subarray
+11. Find Minimum in Rotated Sorted Array
+12. Search in Rotated Sorted Array
+13. 3Sum
+14. Container With Most Water
+15. Subarray Sum Equals K
+16. Longest Consecutive Sequence
+17. Set Matrix Zeroes
+18. Spiral Matrix
+19. Rotate Array
+20. Merge Sorted Array
+21. Majority Element
 
 ---
 
