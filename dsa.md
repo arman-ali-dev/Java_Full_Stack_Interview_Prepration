@@ -2,7 +2,24 @@
 
 1. Two Sum
 2. Best Time to Buy and Sell Stock
-3. Contains Duplicate
+### 3. Contains Duplicate
+```java
+class Solution {
+    public boolean containsDuplicate(int[] nums) {
+        HashSet<Integer> visitedElements = new HashSet();
+
+        for(int n : nums) {
+            if(visitedElements.contains(n)) {
+                return true;
+            }
+
+            visitedElements.add(n);
+        }
+
+        return false;
+    }
+}
+```
 4. Maximum Subarray
 5. Move Zeroes
 6. Find All Numbers Disappeared in an Array
