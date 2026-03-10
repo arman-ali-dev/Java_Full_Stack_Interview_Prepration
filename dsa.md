@@ -1,7 +1,25 @@
 ## Array
 
 1. Two Sum
-2. Best Time to Buy and Sell Stock
+### 2. Best Time to Buy and Sell Stock
+```java
+class Solution {
+    public int maxProfit(int[] prices) {
+        int maxProfit = 0, bestBuy = prices[0];
+
+        for(int p : prices) {
+            if(p < bestBuy) {
+                bestBuy = p;
+            }
+
+            maxProfit = Math.max(maxProfit, p - bestBuy);
+        }
+
+        return maxProfit;
+    }
+}
+```
+
 ### 3. Contains Duplicate
 ```java
 class Solution {
@@ -21,23 +39,6 @@ class Solution {
 }
 ```
 ### 4. Maximum Subarray
-```java
-class Solution {
-    public int maxProfit(int[] prices) {
-        int maxProfit = 0, bestBuy = prices[0];
-
-        for(int p : prices) {
-            if(p < bestBuy) {
-                bestBuy = p;
-            }
-
-            maxProfit = Math.max(maxProfit, p - bestBuy);
-        }
-
-        return maxProfit;
-    }
-}
-```
 6. Move Zeroes
 7. Find All Numbers Disappeared in an Array
 8. Single Number
